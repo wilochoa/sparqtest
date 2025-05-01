@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">SparqTest</string>
+    <string name="description">Description</string>
+    <string name="back">Back</string>
+    <string name="item_details">Item Details</string>
+</resources>
