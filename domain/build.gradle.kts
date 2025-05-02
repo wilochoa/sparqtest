@@ -11,3 +11,18 @@ kotlin {
         jvmTarget = org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_11
     }
 }
+
+dependencies {
+    // Kotlin Coroutines (Pure Kotlin - No Android)
+    implementation(libs.kotlinx.coroutines.core)
+
+    // Dependency Injection (javax.inject)
+    implementation(libs.javax.inject)
+
+    // Unit Testing
+    testImplementation(libs.junit)
+    testImplementation(libs.mockito.core)
+    testImplementation(libs.mockito.kotlin)
+    testImplementation(libs.kotlinx.coroutines.test)
+    testImplementation(libs.turbine)
+}

@@ -1,4 +1,4 @@
-package com.sensate.sparqtest.presentation.itemlist
+package com.sensate.presentation.itemlist
 
 import app.cash.turbine.test
 import com.sensate.domain.model.Item
@@ -6,7 +6,6 @@ import com.sensate.domain.usecase.GetItemsUseCase
 import com.sensate.domain.usecase.GetItemsWithRefreshUseCase
 import com.sensate.domain.usecase.RefreshItemsUseCase
 import com.sensate.presentation.common.UiState
-import com.sensate.presentation.itemlist.ItemListViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.flowOf

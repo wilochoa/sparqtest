@@ -1,4 +1,4 @@
-package com.sensate.sparqtest.data.repository
+package com.sensate.data.repository
 
 import app.cash.turbine.test
 import com.sensate.data.local.dao.ItemDao
