@@ -54,11 +54,26 @@ dependencies {
     implementation(project(":data"))
     implementation(project(":domain"))
 
+    //compose
+    implementation(platform(libs.androidx.compose.bom))
+    implementation(libs.androidx.activity.compose)
+    implementation(libs.androidx.material3)
+
     // Hilt (DI entry point)
     implementation(libs.hilt.android)
+    implementation(libs.androidx.navigation.compose)
     kapt(libs.hilt.compiler)
 
     // Core Android
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
+
+    //moshi
+    // Moshi - JSON parsing
+    implementation(libs.moshi)
+    implementation(libs.moshi.kotlin)
+    implementation(libs.retrofit)
+    implementation(libs.retrofit.converter.moshi)
+    implementation(libs.okhttp)
+    implementation(libs.okhttp.logging.interceptor)
 }
