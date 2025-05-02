@@ -51,6 +51,12 @@ android {
 }
 
 dependencies {
+
+    // Other modules
+    implementation(project(":presentation"))
+    implementation(project(":data"))
+    implementation(project(":domain"))
+
     // Core Android
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
